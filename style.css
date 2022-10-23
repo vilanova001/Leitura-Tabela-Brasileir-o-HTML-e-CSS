@@ -1,0 +1,234 @@
+body{
+    margin: 0px;
+}
+
+.container-header{
+    height: 74px;
+    background-color: #06AA48;
+    display: flex;
+}
+
+.divMenu{
+    margin-top: 25px;
+    margin-left: 10px;
+    display: inline-block;
+    width: 60px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.divBurger{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.divIconGe{
+    margin-top:16px;
+    display: inline-block;
+    color: white;
+    font-size: 10px; 
+    width: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.iconGe{
+    width: 40px;
+    height: 40px;
+}
+
+.divDescricaoBrasileirao{
+    margin-top: 20px;
+    text-align: center;
+    width: 800px;
+    display: inline-block;
+    font-family: "glbOpenSans", "Open Sans" , "Avenir Next", Avenir, Inter, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Helvetica, Arial, Noto, Ubuntu, "Segoe UI", sans-serif;
+    font-weight: lighter;
+    letter-spacing: -0.04em;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: white;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.divEscudo{
+    margin-top: 25px;
+    display: inline-block;
+}
+
+
+.divCampoDeBusca{
+    width: 250px;
+    padding-top:20px;  
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.campoBusca{
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    border-style: hidden;
+    padding: 5px;
+    height: 25px;
+}
+
+.campoBusca > div{
+    display: flex;
+}
+
+.campoBusca input{
+    padding-left:10px;
+    padding-top: 2px;
+    width: 120px;
+    background: transparent;
+    border: none;
+    transition: width 0.35s;
+}
+
+.divCampoDeBusca input:focus-visible{
+    border: none;
+    outline: 0;
+    box-sizing: none;
+    box-decoration-break: none;
+    box-shadow: 0 0 0 0;
+}
+
+.campoBusca input:focus-visible{
+    width: 200px;
+}
+
+.campoBusca input::placeholder{
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campoBusca img{
+    padding-top: 3px;
+}
+
+.campoBusca input:focus-visible::placeholder{
+    color: gray;
+}
+
+.campoBusca:has(input:focus-visible)
+{
+    background-color: white;  
+}
+
+.tablists{
+    background-color: #06AA48;
+    list-style: none;
+    padding-left: 12px;
+    display: flex;
+    height: 56px;
+    cursor: pointer;
+    border-top: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+.tablists ul li{
+    margin-right: 32px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-family: open sans,sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -.5px;
+    text-decoration: none;
+    opacity: .5;
+    white-space: nowrap;
+    list-style: none;
+}
+
+.tablists ul li:hover{
+    opacity: unset;
+}
+
+.tabela-header{
+    margin-top: 35px;
+    margin-left: 180px;
+}
+
+.tabela-header h2{
+    color: #111;
+    font-family: sans-serif;
+    font-size: 1.625em;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    line-height: 1.75em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.calssificacao-header th{
+    padding: 17px;
+    border-top: 1px solid gray;
+    opacity: .3;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.classificacaoTH{
+    width: 350px;
+    padding: unset !important;
+    text-align: left;
+}
+
+.times-tbody tr td{
+    text-align: left;
+    font-size: 17px;
+    border-top: 1px solid gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.times-tbody tr:last-child td{
+    border-bottom: 1px solid gray;
+}
+
+table{
+    border-spacing: 0;
+}
+
+.numberblue{
+    font-size: 17px;
+    color: blue;
+}
+
+.placarnegrito{
+    font-weight: bold;
+}
+
+td:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.vd{
+    background-color: green;
+}
+
+.dt{
+    background-color: red;
+}
+
+.ep{
+    background-color: gray;
+}
+
+.times-span{
+    border-radius: 50%;
+    display: inline-block;
+    height: 7px;
+    margin-left: 0px;
+    overflow: hidden;
+    width: 7px;
+}
